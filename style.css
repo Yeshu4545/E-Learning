@@ -1,0 +1,2216 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+.navbar .Top-banner p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.Top-banner {
+  width: 100%;
+  background-color: #ff9500;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Top-banner:hover {
+  color: rgb(92, 255, 174);
+}
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 50px;
+}
+
+.navbar {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  color: black;
+  font-size: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+  margin-right: 600px;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.nav-links a:hover {
+  color: rgb(255, 97, 92);
+}
+
+button {
+  background-color: #ff9500;
+  border: 1rem;
+  border-radius: 5%;
+  font-size: 1rem;
+  padding: 8px 18px;
+  /* color: #ffffff; */
+}
+.burger{
+  display: none;
+}
+
+.nav-links #Bord {
+  border: 0.5px solid#F1F1F3;
+  width: 50px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #f1f1f3;
+}
+.Hero {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2.5;
+}
+.hero-content1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.hero-content2 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.Hero #Color {
+  color: #ff9500;
+}
+
+.Hero .hero-content1 h1 {
+  background-color: #fcfcfd;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.btn .button1 button {
+  border-radius: 3px;
+  color: #ffffff;
+} 
+.btn .button2 button {
+  background-color: rgb(235, 224, 204);
+  border-radius: 3px;
+}
+
+.logo-wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: rgba(224, 211, 93, 0.144);
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.logo-container {
+  display: inline-flex;
+  animation: scroll 25s linear infinite;
+}
+
+.logo {
+  min-width: 100px;
+  height: 80px;
+  /* background-color:#ddd; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  /* margin-right: 20px; */
+}
+
+.con10 img {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.con10 {
+  position: relative;
+  display: inline-block;
+}
+
+.con10 img {
+  display: block;
+}
+
+.con10::after {
+  content: "";
+  background-image: url(./images/colorful-cat-white-background-dripping-art-free-photo.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1200px;
+  margin-left: 70px;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.con10:hover::after {
+  opacity: 1;
+}
+/* 
+.con iframe{
+  display: none;
+}
+
+.con img:hover{
+  display: none;
+}
+.con iframe:hover{
+  display: flex;
+} */
+
+.Benefits .Text h1 {
+  font-size: 40px;
+  font-family: serif;
+}
+.Benfits .Text h1:hover {
+  color: brown;
+}
+.Benfits.Text p:hover {
+  color: brown;
+}
+
+.btn1 button {
+  border-radius: 3px;
+  color: #fcfbfb;
+  background-color: #f1ba06;
+  margin-top: 10px;
+  /* margin-left: 30px; */
+  /* background: lighten(rgb(219, 143, 143), 3%); */
+}
+.btn .button1 button:hover {
+  color: #262626;
+  background-color: #ff7e06;
+}
+
+.btn .button2 button:hover {
+  background-color: #ff6a06;
+}
+.Text {
+  width: 1000px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #262626;
+  text-align: start;
+  line-height: 2;
+  /* margin-left: 10px; */
+}
+.Benfits .btn1 button {
+  background-color: #d9ebc9;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  background: lighten(rgba(255, 153, 0, 0.781), 3%);
+  border: 1px solid darken(red, 4%);
+  box-shadow: 0px 2px 0 darken(rgb(64, 18, 230), 5%),
+    2px 4px 6px darken(rgb(0, 4, 255), 2%);
+  font-weight: 900;
+  letter-spacing: 1px;
+  transition: all 150ms linear;
+}
+
+.Benfits .Text p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+}
+.Benfits {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.Benfits .Text .btn1 button {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.Benfits .btn1 button:hover {
+  background-color: #ff9500;
+  border-radius: 5px;
+  background: darken(rgb(229, 255, 0), 1.5%);
+  border: 1px solid rgba(#000, 0.05);
+  box-shadow: 1px 1px 2px rgba(#fff, 0.2);
+  color: lighten(rgb(255, 153, 0), 18%);
+  text-decoration: none;
+  text-shadow: -1px -1px 0 darken(rgb(255, 174, 0), 9.5%);
+  transition: all 250ms linear;
+}
+
+/* .btn-3 button{
+  background: lighten(red, 3%);  
+  border: 1px solid darken(red, 4%);
+  box-shadow: 0px 2px 0 darken(red, 5%), 2px 4px 6px darken(red, 2%);
+  font-weight: 900;
+  letter-spacing: 1px;
+  transition: all 150ms linear;
+}
+
+.btn-3 button:hover{
+  background: darken(red, 1.5%);
+  border: 1px solid rgba(#000, .05);
+  box-shadow: 1px 1px 2px rgba(#fff, .2);
+  color: lighten(red, 18%); 
+  text-decoration: none;
+  text-shadow: -1px -1px 0 darken(red, 9.5%);
+  transition: all 250ms linear;
+} */
+
+.Card1 {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  text-align: center;
+  line-height: 2.9;
+  font-family: "Be Vietnam Pro", sans-serif;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.Card1 button {
+  background-color: #f1f1f3;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 170px;
+  margin-top: 15px;
+}
+
+.Card1 button:hover {
+  background-color: #f1ba06;
+ 
+}
+
+.Card1:hover {
+  background-color: #ff9500;
+  /* transition: all 300ms ease-in; */
+  transition: all 250ms linear;
+  width: 380px;
+  height: 380px;
+}
+.Card1 h1 {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.Card2 {
+  display: inline-block;
+  width: 400px;
+  line-height: 2;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  text-align: center;
+  line-height: 2.9;
+  font-family: "Be Vietnam Pro", sans-serif;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.Card2 button {
+  background-color: #f1f1f3;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 170px;
+  margin-top: 15px;
+}
+
+.Card2 button:hover {
+  background-color: #f1ba06;
+}
+
+.Card2:hover {
+  background-color: #ff9500;
+  transition: all 250ms linear;
+  width: 380px;
+  height: 380px;
+}
+.Card2 h1 {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.Card3 {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  line-height: 2;
+  background-color: #ffffff;
+  border-radius: 7px;
+  line-height: 2.9;
+  text-align: center;
+  font-family: "Be Vietnam Pro", sans-serif;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.Card3 button {
+  background-color: #f1f1f3;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 170px;
+  margin-top: 15px;
+}
+
+.Card3 button:hover {
+  background-color: #f1ba06;
+}
+
+.Card3:hover {
+  background-color: #ff9500;
+  transition: all 250ms linear;
+  width: 380px;
+  height: 380px;
+}
+.Card3 h1 {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.Card4 {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  line-height: 2;
+  background-color: #ffffff;
+  border-radius: 7px;
+  line-height: 2.9;
+  text-align: center;
+  font-family: "Be Vietnam Pro", sans-serif;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.Card4 button {
+  background-color: #f1f1f3;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 170px;
+  margin-top: 15px;
+}
+
+.Card4 button:hover {
+  background-color: #f1ba06;
+}
+
+.Card4:hover {
+  background-color: #ff9500;
+  transition: all 300ms ease-in;
+  width: 380px;
+  height: 380px;
+}
+.Card4 h1 {
+  font-weight: 700;
+  font-size: 45px;
+}
+.Card5 {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  line-height: 2;
+  background-color: #ffffff;
+  border-radius: 7px;
+  line-height: 2.9;
+  text-align: center;
+  font-family: "Be Vietnam Pro", sans-serif;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.Card5 button {
+  background-color: #f1f1f3;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 170px;
+  margin-top: 15px;
+}
+
+.Card5 button:hover {
+  background-color: #f1ba06;
+}
+
+.Card5:hover {
+  background-color: #ff9500;
+  transition: all 300ms ease-in;
+  width: 380px;
+  height: 380px;
+}
+.Card5 h1 {
+  font-weight: 700;
+  font-size: 45px;
+}
+.Card6 {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  line-height: 2;
+  background-color: #ffffff;
+  border-radius: 7px;
+  line-height: 2.9;
+  text-align: center;
+  font-family: "Be Vietnam Pro", sans-serif;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.Card6 button {
+  background-color: #f1f1f3;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 170px;
+  margin-top: 15px;
+}
+
+.Card6 button:hover {
+  background-color: #f8c828;
+}
+
+.Card6:hover {
+  background-color: #ff9500;
+  transition: all 300ms ease-in;
+  width: 380px;
+  height: 380px;
+}
+.Card6 h1 {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.Container {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.C1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.C2 {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.course-head {
+  width: 1100px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.Our-courses .course-head .btn5 button {
+  color: #ffffff;
+  width: 100%;
+  height: 35px;
+  background-color: #e2d9d9;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 1.25rem;
+}
+
+.Our-courses .course-head .btn5 button:hover {
+  transition: all 0.3s linear;
+  background-color: #ff9500;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.Content-top {
+  /* margin-left: 80px; */
+  font-family: "Be Vietnam Pro", sans-serif;
+  width: 100%;
+  margin-left: 40px;
+  text-align: start;
+  line-height: 2;
+}
+
+.Card7 img {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 450px;
+  height: 300px;
+}
+
+.Card7 {
+  width: 500px;
+  height: 580px;
+  line-height: 2.2;
+  background-color: #eedede;
+  border-radius: 10px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+}
+
+.c43 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.c44 {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+  margin-right: 90px;
+}
+.c45 #Bold {
+  font-weight: 600;
+}
+
+.Card8 img {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 450px;
+  height: 300px;
+}
+
+.Card8 {
+  width: 500px;
+  height: 580px;
+  background-color: #eedede;
+  border-radius: 10px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  line-height: 2.2;
+}
+
+.c46 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.c47 {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+  margin-right: 90px;
+}
+.c48 #Bold {
+  font-weight: 600;
+}
+.card90 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.con {
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: start;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.con button {
+  background-color: #fff;
+  color: #262626;
+  border-radius: 5px;
+  width: 400px;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.con1 button {
+  background-color: #fff;
+  color: #262626;
+  border-radius: 5px;
+  width: 400px;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.con button:hover {
+  background-color: #ff9500;
+}
+
+.con1 button:hover {
+  background-color: #ff9500;
+}
+
+.con h3 {
+  font-weight: 600;
+}
+.con p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.con1 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: start;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+.con1 p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+/* Middle */
+
+.Card9 img {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 450px;
+  height: 300px;
+}
+
+.Card9 {
+  width: 500px;
+  height: 580px;
+  background-color: #eedede;
+  border-radius: 10px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  line-height: 2.5;
+}
+
+.c43 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.c44 {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+  margin-right: 90px;
+}
+.c45 #Bold {
+  font-weight: 600;
+}
+
+.Card10 img {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 450px;
+  height: 300px;
+}
+
+.Card10 {
+  width: 500px;
+  height: 580px;
+  background-color: #eedede;
+  border-radius: 10px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  line-height: 2.2;
+}
+
+.c46 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.c47 {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+  margin-right: 90px;
+}
+.c48 #Bold {
+  font-weight: 600;
+}
+.card91 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.con {
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: start;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.con h3 {
+  font-weight: 600;
+}
+.con p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.con1 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: start;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+.con1 p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+/* Bottom */
+
+.Card11 img {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 450px;
+  height: 300px;
+}
+
+.Card11 {
+  width: 500px;
+  height: 580px;
+  background-color: #eedede;
+  border-radius: 10px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  line-height: 2.2;
+}
+
+.c43 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.c44 {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+  margin-right: 90px;
+}
+.c45 #Bold {
+  font-weight: 600;
+}
+
+.Card12 img {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 450px;
+  height: 300px;
+}
+
+.Card12 {
+  width: 500px;
+  height: 580px;
+  background-color: #eedede;
+  border-radius: 10px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  line-height: 2.2;
+}
+
+.c46 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.c47 {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+  margin-right: 90px;
+}
+.c48 #Bold {
+  font-weight: 600;
+}
+.card92 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.con2 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: start;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.con2 h3 {
+  font-weight: 600;
+}
+.con2 p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.con3 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: start;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+.con3 p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.con2 button {
+  background-color: #fff;
+  color: #262626;
+  border-radius: 5px;
+  width: 400px;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 20px;
+  transition: all 0.5s linear;
+}
+
+.con3 button {
+  background-color: #fff;
+  color: #262626;
+  border-radius: 5px;
+  width: 400px;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 20px;
+  transition: all 0.5s linear;
+}
+
+.con2 button:hover {
+  background-color: #ff9500;
+}
+
+.con3 button:hover {
+  background-color: #ff9500;
+}
+
+.Card7:hover,
+.Card8:hover,
+.Card9:hover,
+.Card10:hover,
+.Card11:hover,
+.Card12:hover {
+  background-color: #e8ff1783;
+  transition: all 300ms ease-in;
+  width: 530px;
+  height: 590px;
+}
+
+.content9 {
+  width: 900px;
+  margin-left: 100px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  line-height: 2.2;
+}
+
+.cb {
+  margin-top: 20px;
+  display: flex;
+  align-items: start;
+  gap: 120px;
+  margin-left: 10px;
+}
+
+.b1 button {
+  color: white;
+  border-radius: 5px;
+  background-color: #eedede;
+  transition: all 0.5s linear;
+}
+
+.b1 button:hover {
+  background-color: #ff9500;
+}
+
+.Cont {
+  padding: 10px;
+  border-radius: 5px;
+  width: 500px;
+  height: 100px;
+  background-color: #ececf5;
+}
+
+.Detail1 img {
+  width: 30px;
+  height: 30px;
+}
+
+.Detail1 {
+  padding: 10px;
+  width: 500px;
+  height: 50px;
+  background-size: 100px;
+  margin-top: 0.6px;
+  display: flex;
+  justify-content: start;
+  background-color: #e3e6de;
+  gap: 30px;
+  border-radius: 2px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 0.9rem;
+}
+
+.Detail1 button {
+  color: #262626;
+  background-color: #f7f7f8;
+  margin-left: 180px;
+  font-size: 0.8rem;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.Cont p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 0.9rem;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.Cont {
+  padding: 10px;
+  border-radius: 5px;
+  width: 500px;
+  height: 100px;
+  background-color: #ececf5;
+}
+
+.Detail2 img {
+  width: 30px;
+  height: 30px;
+}
+
+.Detail2 {
+  padding: 10px;
+  width: 500px;
+  height: 50px;
+  background-size: 100px;
+  margin-top: 0.6px;
+  display: flex;
+  justify-content: start;
+  background-color: #e3e6de;
+  gap: 30px;
+  border-radius: 2px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 0.9rem;
+}
+
+.Detail2 button {
+  color: #262626;
+  background-color: #f7f7f8;
+  margin-left: 180px;
+  font-size: 0.8rem;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.Cont2 p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 0.9rem;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.container1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.c {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card13:hover {
+  color: crimson;
+}
+
+.Card14:hover {
+  color: crimson;
+}
+
+.card15:hover {
+  color: crimson;
+}
+.Card16:hover {
+  color: crimson;
+}
+
+.Detail1 button:hover {
+  background-color: #ffc50698;
+}
+
+.Detail2 button:hover {
+  background-color: #ffe6067e;
+}
+
+.P {
+  font-family: "Be Vietnam Pro", sans-serif;
+  width: 700px;
+  margin-left: 100px;
+  margin-top: 20px;
+  line-height: 2.1;
+}
+.P h2{
+  font-size: 2rem;
+}
+
+/* .butt button {
+  color: #f7f7f8;
+}
+
+.butt {
+  
+  width: 160px;
+  height: 37px;
+  border-radius: 5px;
+  background-color: #f7eaea;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.butt p {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 20px;
+} */
+
+.Pric {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+  /* gap: 250px; */
+  margin-bottom: 20px;
+  margin-left: 20px;
+  
+}
+
+.Co1 {
+  width: 430px;
+  height: 700px;
+  background-color: #ec61616b;
+}
+.Con-l {
+  margin-top: 30px;
+  padding: 10px;
+  margin-left: 60px;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff9f0;
+  border-radius: 5px;
+}
+
+.Num {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Dol {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.Num p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.AF {
+  font-family: "Poppins", serif;
+  line-height: 3.5;
+  font-weight: 500;
+  width: 350px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background-color: #fff9f0;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.Conta1 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.Conta2 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.Conta3 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.Conta4 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.Conta5 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.Conta6 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.Conta7 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.Conta1,
+.Conta2,
+.Conta3,
+.Conta4,
+.Conta5,
+.Conta6,
+.Conta7 {
+  margin-left: 40px;
+  margin-top: 4px;
+}
+
+.Conta1 p,
+.Conta2 p,
+.Conta3 p,
+.Conta4 p,
+.Conta5 p,
+.Conta6 p,
+.Conta7 p {
+  margin-left: 5px;
+}
+
+.bu button {
+  margin-top: 10px;
+  height: 52px;
+  width: 100%;
+  transition: all 0.5s linear;
+  color: #ffffff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.Co1 {
+  border-radius: 5px;
+  line-height: 3;
+}
+
+.bu button:hover {
+  background-color: #ececf5;
+}
+.Container11 {
+  width: 1300px;
+  height: 1150px;
+  margin-left: 25px;
+  background-color: #efecff;
+  border-radius: 15px;
+}
+
+/* Content Right */
+
+.Co2 {
+  width: 430px;
+  height: 700px;
+  background-color: #ec61616b;
+  line-height: 3;
+}
+.Con-R {
+  margin-top: 30px;
+  padding: 10px;
+  margin-left: 70px;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff9f0;
+  border-radius: 5px;
+}
+
+.Num {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#Dol {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+.Num p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.AF {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-weight: 500;
+  width: 350px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background-color: #f0eee8;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+
+.AF:hover {
+  background-color: rgb(209, 95, 117);
+}
+
+.Conta1 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.Conta2 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.Conta3 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.Conta4 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.Conta5 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.Conta6 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.Conta7 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.Conta1,
+.Conta2,
+.Conta3,
+.Conta4,
+.Conta5,
+.Conta6,
+.Conta7 {
+  margin-left: 40px;
+  margin-top: 4px;
+}
+
+.Conta1 p,
+.Conta2 p,
+.Conta3 p,
+.Conta4 p,
+.Conta5 p,
+.Conta6 p,
+.Conta7 p {
+  margin-left: 5px;
+}
+
+.bu button {
+  margin-top: 10px;
+  height: 52px;
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.Co1 {
+  border-radius: 5px;
+}
+
+.bu button:hover {
+  background-color: #ececf5;
+}
+
+.C12 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Frequent {
+  width: 100%;
+  height: 400px;
+  background-color: #241b1c;
+  margin-top: 50px;
+  display: flex;
+  align-items: safe;
+  justify-content: space-between;
+  border-radius: 5px;
+  line-height: 2;
+}
+
+.Freq {
+  margin-top: 70px;
+  margin-left: 50px;
+  width: 350px;
+  height: 200px;
+  padding: 20px;
+  text-align: start;
+  display: inline-block;
+  align-items: start;
+  color: #ffffff;
+  background-color: rgba(94, 88, 88, 0.308);
+  border: 0.5px solid rgba(61, 59, 60, 0.329);
+  border-radius: 5px;
+}
+
+.Freq button {
+  background-color: #8d313d81;
+  color: #fffbfb;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.Freq button:hover {
+  background-color: #be37fd50;
+}
+
+.cont1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.cont1 img {
+  background-color: #ddbcbc;
+  border-radius: 5px;
+}
+
+.cont2 {
+  width: 400px;
+  margin-right: 100px;
+}
+
+.cont {
+  margin-top: 80px;
+  border: 0.5px solid rgba(61, 59, 60, 0.329);
+  border-radius: 5px;
+  background-color: rgba(61, 59, 60, 0.329);
+  color: white;
+  height: 180px;
+  padding: 20px;
+  padding-left: 30px;
+  margin-right: 20px;
+}
+.Cont {
+  margin-top: 50px;
+  height: 130px;
+  line-height: 1.7;
+}
+
+.cont3 {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  border: 0.5px solid #8d313d81;
+  background-color: #8d313d81;
+  border-radius: 5px;
+  opacity: 0.7;
+}
+
+.cont3 button {
+  border-radius: 50%;
+  margin-top: 8px;
+  width: 15px;
+  height: 30px;
+  background-color: #d85d6d81;
+  line-height: 1;
+}
+
+.cont3 button img {
+  width: 10px;
+  height: 8px;
+  margin-bottom: 7px;
+}
+
+.cont3 p {
+  margin-left: 10px;
+}
+
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: #f7f2f2;
+  color: #050505;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 450px;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+}
+
+.f12 {
+  margin: 0;
+  text-decoration: none;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.f {
+  width: 100%;
+  display: flex;
+  line-height: 4;
+  gap: 5px;
+}
+
+.f1 img {
+  margin-top: 19px;
+}
+
+.Home {
+  margin-top: 20px;
+  width: 200px;
+  display: flex;
+  line-height: 2;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  line-height: 2.5;
+}
+.About {
+  margin-top: 20px;
+  width: 200px;
+  display: flex;
+  line-height: 2.5;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+}
+
+.Ff {
+  display: flex;
+}
+
+.Social h5 {
+  margin-top: 23px;
+  margin-left: 10px;
+  font-size: 1rem;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+}
+
+.Home #H {
+  font-weight: 600;
+}
+.About #A {
+  font-weight: 600;
+}
+
+/* Media */
+
+@media (max-width: 428px) {
+  .nav-links {
+    display: none;
+  }
+  .header {
+    margin-top: 5px;
+    font-size: 0.7rem;
+  }
+  .header p {
+    margin-left: 130px;
+  }
+  .header img {
+    width: 40px;
+  }
+  .header button {
+    line-height: 0.6;
+    width: 70px;
+    text-align: center;
+  }
+  .Hero {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  .burger{
+  display: block;
+  }
+  .line1{
+    width: 40px;
+    height: 3px;
+    gap: 10px;
+    margin: 10px;
+    background-color:black;
+    border-radius: 5px;
+  }
+  .line2{
+    width: 40px;
+    height: 3px;
+    gap: 10px;
+    margin: 10px;
+    background-color:rgba(0, 0, 0, 0.849);
+    border-radius: 5px; 
+  }
+  .line3{
+    border: 1.75px solid black;
+    width: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+  }
+  .hero-content1 {
+    font-size: 0.7rem;
+    margin-top: 20px;
+  }
+  .hero-content2 {
+    width: 270px;
+    margin-left: 80px;
+    margin-top: 1px;
+  }
+  .con10 img {
+    width: 390px;
+    margin-left: 20px;
+  }
+  .con10::after {
+    width: 400px;
+    margin-left: 17px;
+  }
+
+  .Hero {
+    font-size: 0.8rem;
+  }
+  .Benfits {
+    width: 400px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .Container11 {
+    width: 419px;
+    height: 2880px;
+    display: block;
+    flex-wrap: wrap;
+    margin-left: 10px;
+  }
+  .Text h1 {
+    line-height: 2;
+    font-size: 1.7rem;
+    margin-top: 0;
+  }
+  .Text p {
+    width: 100%;
+    font-size: 0.6rem;
+  }
+  .btn1 button {
+    font-size: 0.6rem;
+    width: 90px;
+  }
+
+  .Container p {
+    font-size: 0.9rem;
+  }
+  .C1 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+  }
+  .C2 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 0;
+  }
+  .Card1,
+  .Card2,
+  .Card3,
+  .Card4,
+  .Card5,
+  .Card6 {
+    width: 365px;
+    background-color: #d8626283;
+    margin-bottom: 20px;
+    line-height: 2.5;
+    padding: 0;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .Card1 button {
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  .Card2 button {
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  .Card3 button {
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  .Card4 button {
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  .Card5 button {
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  .Card6 button {
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  .Card1:hover {
+    width: 370px;
+    height: 410px;
+  }
+
+  .Card2:hover {
+    width: 370px;
+    height: 410px;
+  }
+  .Card3:hover {
+    width: 370px;
+    height: 410px;
+  }
+  .Card4:hover {
+    width: 370px;
+    height: 410px;
+  }
+  .Card5:hover {
+    width: 370px;
+    height: 410px;
+  }
+  .Card6:hover {
+    width: 370px;
+    height: 410px;
+  }
+  .course-head {
+    width: 400px;
+    height: 200px;
+    margin-left: 5px;
+  }
+  .Content-top h1 {
+    font-size: 1.6rem;
+  }
+  .Content-top p {
+    font-size: 10px;
+    margin-left: 0;
+    padding: 0;
+  }
+  .btn5 {
+    margin-right: 50px;
+    padding: 0;
+    width: 70px;
+    
+  }
+
+  .card90 {
+    display: block;
+  }
+  .card91 {
+    display: block;
+  }
+  .card92 {
+    display: block;
+  }
+  .con {
+    padding: 10px;
+  }
+  .Card7,
+  .Card8,
+  .Card9,
+  .Card10,
+  .Card11,
+  .Card12 {
+    width: 400px;
+    height: 600px;
+    margin-bottom: 20px;
+    line-height: 2;
+    margin-left: 25px;
+    
+  }
+  .Card7 img {
+    width: 360px;
+  }
+  .Card7 button {
+    width: 330px;
+  }
+  .Card7:hover {
+    width: 400px;
+    height: 605px;
+  }
+  .Card8 img {
+    width: 360px;
+  }
+  .Card8 button {
+    width: 330px;
+  }
+  .Card8:hover {
+    width: 400px;
+    height: 605px;
+  }
+  .Card9 img {
+    width: 360px;
+  }
+  .Card9 button {
+    width: 330px;
+  }
+  .Card9:hover {
+    width: 400px;
+    height: 605px;
+  }
+  .Card10 img {
+    width: 360px;
+  }
+  .Card10 button {
+    width: 330px;
+  }
+  .Card10:hover {
+    width: 400px;
+    height: 605px;
+  }
+  .Card11 img {
+    width: 360px;
+  }
+  .Card11 button {
+    width: 330px;
+  }
+  .Card11:hover {
+    width: 400px;
+    height: 605px;
+  }
+  .Card12 img {
+    width: 360px;
+  }
+  .Card12 button {
+    width: 330px;
+  }
+  .Card12:hover {
+    width: 400px;
+    height: 605px;
+  }
+  .cb {
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+  }
+  .content9 {
+    width: 400px;
+    margin-left: 20px;
+  }
+  .content9 h1 {
+    font-size: 1.2rem;
+  }
+  .content9 p {
+    width: 160px;
+    font-size: 0.7rem;
+  }
+  .b1 button {
+    font-size: 0.9rem;
+    width: 100px;
+    margin-right: 100px;
+  }
+  .container1 {
+    display: block;
+  }
+  .c {
+    display: block;
+  }
+  .Cont {
+    width: 410px;
+    height: 170px;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-bottom: 1px;
+    line-height: 2;
+  }
+  .Detail1 {
+    width: 410px;
+    height: 70px;
+    gap: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .Detail1 button {
+    height: 60px;
+    width: 200px;
+  }
+  .Detail2 button {
+    height: 60px;
+    width: 150px;
+  }
+  .card13 {
+    font-size: 0.5rem;
+  }
+  .Cont {
+    font-size: 0.6rem;
+  }
+  .Detail2 {
+    width: 410px;
+    height: 70px;
+    gap: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .Conta1,
+  .Conta2,
+  .Conta3,
+  .Conta4,
+  .Conta5,
+  .Conta6,
+  .Conta7 {
+    margin-left: 15px;
+    margin-top: 4px;
+  }
+  .P {
+    margin-left: 0;
+    width: 300px;
+  }
+  .P h2 {
+    font-size: 1rem;
+  }
+  .P p {
+    font-size: 0.7rem;
+    width: 300px;
+  }
+  .Pric {
+    gap: 0;
+    padding: 10px;
+    margin-left: 30px;
+  }
+  .butt{
+    display: none;
+  }
+
+  .butt button {
+    display: none;
+    font-size: 0.7rem;
+    width: 50px;
+  }
+  .butt p {
+    display: none;
+    width: 50px;
+    font-size: 0.7rem;
+  }
+  .C12 {
+    display: block;
+  }
+  .Co1 {
+    width: 410px;
+    height: 725px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+  .Co2 {
+    width: 410px;
+    height: 725px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+  .Con-l {
+    background-color: #e9474757;
+    width: 270px;
+  }
+  .bu button {
+    margin-top: 10px;
+    transition: all 0.5s linear;
+    color: #ffffff;
+  }
+  .bu button:hover {
+    background-color: #ee5b17;
+  }
+  .AF {
+    width: 280px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    transition: all 0.5s linear;
+  }
+  .Con-R {
+    background-color: #e9474757;
+    width: 270px;
+  }
+  .Frequent {
+    display: none;
+    width: 400px;
+    margin-left: 5px;
+    margin-top: 0;
+    line-height: 1;
+  }
+  .Freq {
+    width: 100px;
+    height: 150px;
+    margin-left: 20px;
+    font-size: 0.5rem;
+  }
+  .Freq button {
+    font-size: 0.5rem;
+    width: 100px;
+  }
+  .cont {
+    margin-left: 0px;
+    width: 100px;
+    height: 200px;
+    font-size: 0.6rem;
+  }
+  .cont1 img {
+    width: 15px;
+  }
+  .cont1 {
+    width: 100px;
+  }
+  .cont2,
+  .cont3 {
+    width: 100px;
+    font-size: 0.6rem;
+  }
+  .cont3 button {
+    display: none;
+    padding: 10px;
+  }
+  .footer {
+    width: 447px;
+    height: auto;
+    font-size: 0.6rem;
+
+    gap: 0px;
+    justify-content: start;
+    align-items: start;
+    background-color: #423f3f;
+    color: #ffffff;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    display: block;
+  }
+  #Logo{
+    margin-left: 20px;
+  }
+  .f {
+    padding: 20px;
+  }
+  .f11{
+    line-height: 1;
+  }
+  .Ff {
+    padding: 20px;
+    gap: 10px;
+    margin: 0;
+  }
+  .f12 {
+    margin-top: 15px;
+    line-height: 4;
+  }
+  .Social h5{
+    font-size: 0.7rem;
+  }
+  .Social img{
+    width: 100px;
+  }
+  .Social{
+    line-height: 3;
+  }
+  .Home{
+    margin-top: 25px;
+  }
+  .About{
+    margin-top: 25px;
+  }
+  
+}
+
+@media (max-width: 1280px) {
+  .header {
+    margin-left: 20px;
+  }
+}
+@media(max-width:390px){
+  .header{
+    margin-left: 5px;
+  }
+  .Benfits{
+    width: 330px;
+    margin-left: 0px;
+    margin-bottom: 0;
+  }
+  .Container11{
+    width: 390px;
+    height: 2900px;
+    margin-left: 12px;
+  }
+  .btn1{
+    width: 30px;
+    gap: 0;
+    margin-left: 0;
+  }
+  .Card1{
+    margin-left: 0;
+  }
+  .C1,.C2{
+      margin-left: 5px;
+      flex-wrap: wrap;
+  }
+  .Card1,
+  .Card2,
+  .Card3,
+  .Card4,
+  .Card5,
+  .Card6 {
+    margin-top: 15px;
+    
+  }
+
+
+}
